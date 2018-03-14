@@ -32,9 +32,11 @@ So....
 - Any type of commit can force a release/publish by answering yes to "Are there any breaking changes?"
 
 - Changes that trigger a release/publish (without having to answer yes to the breaking changes question)
-  - Feat (increases minor)
-  - Fix (increases patch)
-  - Perf (increases patch)
+    | Type | w/out breaking change | with breaking change |
+    |:----:|:----:|:----:|
+    |Feat|increases minor|increases major|
+    |Fix|increases patch|increases ?|
+    |Perf|increases patch|increases ?|
 
 - Changes that do not trigger a release/publish (unless you answer yes to the breaking change question)
   - Doc
