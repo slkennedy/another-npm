@@ -1,17 +1,19 @@
 # another-npm
 
-A major breaking change 1.0.0
+A major breaking change 1.0.0 - (increases the major and pushes a release/publish)
 
-A feature change 1.1.0
+A feature change 1.1.0 with breaking change - (increases the minor and pushes a release/publish)
 
-A doc change 1.1.0
+A doc change 1.1.0 - no change
 
-A feature change 1.2.0 (no breaking change was listed)
+A feature change 1.2.0 without breaking change - (increases the minor and pushes a release/publish)
 
-A Fix 1.2.1 (released and published)
+A Fix 1.2.1 - (increases the patch and pushes a release/publish)
 
 A Style commit - no change
 
 A Refactor - no change
 
-A Perf
+A Perf - 1.2.2 - (increases the patch and pushes a release/publish)
+
+A test
