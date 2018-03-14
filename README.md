@@ -36,7 +36,7 @@ So....
     |:----:|:----:|:----:|
     |Feat|increases minor|increases major|
     |Fix|increases patch|increases major|
-    |Perf|increases patch|increases |
+    |Perf|increases patch|increases major|
 
 - Changes that do not trigger a release/publish (unless you answer yes to the breaking change question)
   - Doc
