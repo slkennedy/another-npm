@@ -24,4 +24,24 @@ A ci - no change
 
 A chore - no change
 
-A revert
+A revert - no change
+
+So....
+1.2.3 (Major.Minor.Patch)
+
+- Any type of commit can force a release/publish by answering yes to "Are there any breaking changes?"
+
+- Changes that trigger a release/publish (without having to answer yes to the breaking changes question)
+  - Feat (increases minor)
+  - Fix (increases patch)
+  - Perf (increases patch)
+
+- Changes that do not trigger a release/publish (unless you answer yes to the breaking change question)
+  - Doc
+  - Style
+  - Refactor
+  - Test
+  - Build
+  - CI
+  - Chore
+  - Revert
