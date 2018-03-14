@@ -18,4 +18,6 @@ A Perf - 1.2.2 - (increases the patch and pushes a release/publish)
 
 A test - no change
 
-A build
+A build - no change
+
+A ci
