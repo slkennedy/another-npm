@@ -12,4 +12,6 @@ A Fix 1.2.1 (released and published)
 
 A Style commit - no change
 
-A Refactor
+A Refactor - no change
+
+A Perf
