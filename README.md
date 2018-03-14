@@ -32,6 +32,7 @@ So....
 - Any type of commit can force a release/publish by answering yes to "Are there any breaking changes?"
 
 - Changes that trigger a release/publish (without having to answer yes to the breaking changes question)
+
     | Type | w/out breaking change | with breaking change |
     |:----:|:----:|:----:|
     |Feat|increases minor|increases major|
