@@ -35,8 +35,8 @@ So....
     | Type | w/out breaking change | with breaking change |
     |:----:|:----:|:----:|
     |Feat|increases minor|increases major|
-    |Fix|increases patch|increases ?|
-    |Perf|increases patch|increases ?|
+    |Fix|increases patch|increases major|
+    |Perf|increases patch|increases |
 
 - Changes that do not trigger a release/publish (unless you answer yes to the breaking change question)
   - Doc
