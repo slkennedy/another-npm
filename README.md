@@ -10,4 +10,6 @@ A feature change 1.2.0 (no breaking change was listed)
 
 A Fix 1.2.1 (released and published)
 
-A Style commit
+A Style commit - no change
+
+A Refactor
