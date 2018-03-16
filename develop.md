@@ -13,3 +13,10 @@ trying another pr and not merging it this time....
 https://docs.travis-ci.com/user/pull-requests/
 
 another attempt b/c I forgot to run git cz.
+
+made a pull request of dev to master
+build kicked off
+waited on that to finish
+merged stuff
+new build kicked off again
+everything worked.
