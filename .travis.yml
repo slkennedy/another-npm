@@ -14,3 +14,9 @@ after_success:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+deploy:
+  provider: releases
+  file: "./downloads/theme-coloniallife-default.min.css"
+  skip_cleanup: true
+  on:
+    tags: true

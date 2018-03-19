@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
-    "build": "cat downloads/styles.scss | node-sass --output-style compressed > downloads/theme-coloniallife-default.min.css"
+    "build-styles": "cat downloads/styles.scss | node-sass --output-style compressed > downloads/theme-coloniallife-default.min.css"
   },
   "repository": {
     "type": "git",
