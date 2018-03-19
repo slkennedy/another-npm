@@ -14,9 +14,9 @@ after_success:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+before_deploy:
+  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
   provider: releases
   file: "./downloads/theme-coloniallife-default.min.css"
   skip_cleanup: true
-  on:
-    tags: true
