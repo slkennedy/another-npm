@@ -10,7 +10,7 @@ install:
   - npm install
 after_success:
   - npm i -g travis-deploy-once
-  - npm run travis-deploy-once "npm run build && npm run semantic-release"
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
